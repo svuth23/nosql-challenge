@@ -1,4 +1,4 @@
-# nosql-challenge
+# NoSql-Challenge
 # Eat Safe And Love.
 
 Module 12 Challenge filesLinks to an external site.
@@ -70,28 +70,31 @@ The scores for Hygiene, Structural, and ConfidenceInManagement work in reverse. 
 
 
 1.Which establishments have a hygiene score equal to 20? (41 of them)
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/8006695d-06dc-47d1-98b5-4d209bd54607)
+![image](https://github.com/svuth23/nosql-challenge/assets/136966712/7de77ca1-680b-46fc-b324-6fbd063c0664)
 
-2.Which establishments in London have a RatingValue greater than or equal to 4?
 
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/6ad454ed-e9cf-42c6-8d55-3f584fa6711e)
+2.Which establishments in London have a RatingValue greater than or equal to 4? (i.e 33 )
+
+![image](https://github.com/svuth23/nosql-challenge/assets/136966712/04eafd91-2bae-429c-a904-d86b1074911b)
+
 
 Hint: The London Local Authority has a longer name than "London" so you will need to use $regex as part of your search.
 
-3. are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+3.  The top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
-Hint: You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
+Hint:  will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
 
-result is : 
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/871d1b62-0286-4881-8391-c714077c757b)
+screenshot result is : 
+![image](https://github.com/svuth23/nosql-challenge/assets/136966712/026994c0-e1c3-49c6-9822-ff4a8d32ee77)
+
 
 4.How many establishments in each Local Authority area have a hygiene score of 0?i.e 55.
-Sort the results from highest to lowest, and print out the top ten local authority areas.
+Sorted the results from highest to lowest, and print out the top ten local authority areas.
 
-Hint: You will need to use the aggregation method to answer this.
 
 The first 5 rows of your resulting DataFrame :
 
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/5ac478b9-7b5a-48f0-808c-71a2412b7317)
+![image](https://github.com/svuth23/nosql-challenge/assets/136966712/7639858d-35b7-4a15-878d-de49efdb8cf9)
+
 
 
