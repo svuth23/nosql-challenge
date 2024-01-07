@@ -41,17 +41,11 @@ Used NoSQL_setup_starter.ipynb for this section of the challenge.
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection.
 1.An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following restaurant "Penang Flavours" to the database.
 
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/048651d6-9d46-407c-a581-6eb215870e81)
-
-
-
 
 2.Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/d3ff44d9-14ad-4572-a2ce-8bccd3987a62) 
 
 
 3.Updated the new restaurant with the BusinessTypeID you found.
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/34c39b32-5f67-4072-9e7c-f3e96926234a)
 
 
 4.The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority( i.e: 994). Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
@@ -87,7 +81,6 @@ Hint: The London Local Authority has a longer name than "London" so you will nee
 3. are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
 Hint: You will need to compare the geocode to find the nearest locations. Search within 0.01 degree on either side of the latitude and longitude.
-![image](https://github.com/svuth23/nosql-challenge/assets/136966712/0d9798ed-74e6-4f7b-af0b-a12b5f2299ed)
 
 result is : 
 ![image](https://github.com/svuth23/nosql-challenge/assets/136966712/871d1b62-0286-4881-8391-c714077c757b)
@@ -97,7 +90,7 @@ Sort the results from highest to lowest, and print out the top ten local authori
 
 Hint: You will need to use the aggregation method to answer this.
 
-The first 5 rows of your resulting DataFrame should look something like this:
+The first 5 rows of your resulting DataFrame :
 
 ![image](https://github.com/svuth23/nosql-challenge/assets/136966712/5ac478b9-7b5a-48f0-808c-71a2412b7317)
 
